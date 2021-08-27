@@ -1,4 +1,4 @@
-# Hexblade-Positioner
+# Hexblade Positioner
 
 
 Here we introduce a new 6-axes positioner, called a hexblade positioner, that achieves high speeds over large ranges with high precision. The positioner achieves these capabilities due to its bent-blade-flexure topology, which decouples its 6 actuators. A matrix-based analytical approach is used to model the stiffness and inertia of the positioner’s topology and its performance capabilities are subsequently calculated and plotted for each version of the design over a comprehensive sweep of its geometric parameters.
