@@ -229,8 +229,8 @@ for tempCounter = [1:1:12]
 
 		mTwist = KK^-1*WrenchTemp;
 
-		YieldedYorN = YieldedElementsEuler(mConstraint,mTwist);
-		BuckledYorN = BuckledElementsEuler(mConstraint,mTwist);
+		YieldedYorN = YieldedElementsTimoshenko(mConstraint,mTwist);
+		BuckledYorN = BuckledElementsTimoshenko(mConstraint,mTwist);
 
 		isCollided = -1;
 
